@@ -1,0 +1,76 @@
+body {
+  font-family: sans-serif;
+}
+
+.input-container {
+  margin: 15px 10px 15px 10px;
+  max-width: 300px;
+  background-color: #EDEDED;
+  border: 1px solid #DFDFDF;
+  border-radius: 5px;
+}
+
+input[type='file'] {
+  display: none;
+}
+
+.file-info {
+  font-size: 0.9em;
+}
+
+.browse-btn {
+  background: #0085ba;
+  color: #fff;
+  min-height: 35px;
+  cursor: pointer;
+  padding: 10px;
+  border: none;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+.browse-btn:hover {
+  background: #008ec2;
+}
+
+.warning {
+  font-size: 14px;
+  font-style: italic;
+  //text-align: center;
+  color: #aaaaaa;
+  margin: 15px 10px 15px 10px;
+}
+
+@media (max-width: 300px) {
+  button {
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 0;
+  }
+  
+  .file-info {
+    display: block;
+    margin: 10px 5px;
+  }
+}
+
+input[type='file'] {
+  display: none;
+}
+
+.select-number {
+  margin: 35px 10px 15px 10px;
+}
+
+.select-number p {
+  margin-bottom: 14px;
+}
+
+.select-number label#number {
+  margin: 0;
+}
+
+.select-number label {
+  display: inline-block;
+  margin-right: 5px;  
+}
